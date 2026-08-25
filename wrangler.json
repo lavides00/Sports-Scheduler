@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "courtflow-scheduler",
+  "compatibility_date": "2025-04-15",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "courtflow",
+      "database_id": "0",
+      "migrations_dir": "./migrations"
+    }
+  ],
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
